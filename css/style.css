@@ -1,0 +1,117 @@
+* {
+  font-family: 'Lato', sans-serif;
+
+}
+
+body {
+    background-image: url('/images/mob-body-bg.png');
+    background-repeat: no-repeat
+}
+
+.hero h3,h1 {
+  color: #ef1f08;
+  margin: 0;
+}
+
+.hero h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 46px;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.hero h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.hero p.msg {
+  font-size: 20px;
+  color: rgb(111, 112, 116);
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/images/wrks-section-bg.jpg');
+  background-repeat: repeat-y;
+  width: 100%;
+  height: fit-content;
+  padding: 16px;
+}
+
+.works h2 {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.works .ctsprtr {
+  border-bottom: 1px solid #ef1f08;
+  width: 50px;
+  height: 0;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+.works ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  row-gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.works ul li {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  border: 1px solid transparent;
+}
+
+.works ul li:hover {
+  border: 1px solid #ef1f08;
+}
+
+.works li div {
+  width: 48px;
+  height: 48px;
+}
+
+.works img {
+  width: 64px;
+  height: 58px;
+}
+
+.works ul li h5 {
+  color: rgb(239, 81, 60);
+}
+
+.works ul li p {
+  color: #fff;
+}
+
+.works ul li * {
+  margin: 0;
+}
+
+.vst-btn-ctnr {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.vst-btn-ctnr button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
