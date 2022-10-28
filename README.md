@@ -69,7 +69,7 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-Copyright (c) 2022 Shaheryar Abid
+Copyright (c) 2022 Ahsan Ghazni Khan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
