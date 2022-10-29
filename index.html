@@ -5,44 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 </head>
 <body>
    <header>
+       <div class="upper_navbar">
+           <ul>
+            <li><a href="#"><img src="images/linkedinlogo.png" alt="Linked in nav item"></a></li>
+            <li><a href="#"><img src="images/twitterlogo.png" alt="Linked in nav item"></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>          
+         </ul>
+       </div>
        <nav>
-           <button type="button"><img src="images/hamburger.png" alt="Hamburger button"></button>
-       </nav>
+           <button type="button" id="hamburger-btn"><img src="images/hamburger.png" alt="Hamburger button"></button>
+           <div class="desktop-navbar">
+                <a class="logo_link" href="#"><img src="images/Screenshot from 2022-02-16 15-13-24.png" alt="Homifyers logo link"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#tstmons">Top Customers</a></li>
+                    <li><a href="#brands">Brands</a></li>
+                    <li><a href="#wrhs">Visit</a></li>
+                </ul>
+            </div>
+        </nav>
    </header>
    <main>
-       <sectiom class="hero">
+       <section class="hero" id="hero">
             <h3>Hello! Online Available Furniture</h3>
             <h1>Beautifully Designed Furniture</h1>
             <p class="msg">A website where all kind of furniture is available. Beatifully designed and best furniture is available and it's delivery is also available. 100%% best quality furniture is available at your door step.
                 You can choose and buy your favourite furniture from our website and we can deliver it to you.
             </p>
-            <h3 class=""></h3>
-            <p>@Furnishers Islamabad, Pakistan</p>
-       </sectiom>
-       <section class="works">
+            <h2 class="current-time"></h2>
+            <p class="tit">@Furnishers Islamabad, Pakistan</p>
+       </section>
+       <section class="works" id="categories">
             <h2>Categories</h2>
             <div class="ctsprtr"></div>
             <ul>
-                <li><div class="bed"><img src="images/bed.png" alt=""></div><h5>Beds</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis omnis assumenda architecto maiores sunt quisquam ipsa eligendi natus voluptatibus earum ab, provident minus veniam labore, eius deserunt qui unde dolores?</p></li>
-                <li><div class="chair"><img src="images/chair.png" alt=""></div><h5>Chairs</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis omnis assumenda architecto maiores sunt quisquam ipsa eligendi natus voluptatibus earum ab, provident minus veniam labore, eius deserunt qui unde dolores?</p></li>
-                <li><div class="couch"><img src="images/couch.png" alt=""></div><h5>Couches</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis omnis assumenda architecto maiores sunt quisquam ipsa eligendi natus voluptatibus earum ab, provident minus veniam labore, eius deserunt qui unde dolores?</p></li>
-                <li><div class="cupboard"><img src="images/cupboard.png" alt=""></div><h5>Cupboards</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis omnis assumenda architecto maiores sunt quisquam ipsa eligendi natus voluptatibus earum ab, provident minus veniam labore, eius deserunt qui unde dolores?</p></li>
-                <li><div class="Tables"><img src="images/table.png" alt=""></div><h5>Tables</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis omnis assumenda architecto maiores sunt quisquam ipsa eligendi natus voluptatibus earum ab, provident minus veniam labore, eius deserunt qui unde dolores?</p></li>
+                <li><div class="bed"><img src="images/bed.png" alt=""></div><h5>Beds</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></li>
+                <li><div class="chair"><img src="images/chair.png" alt=""></div><h5>Chairs</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></li>
+                <li><div class="couch"><img src="images/couch.png" alt=""></div><h5>Couches</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></li>
+                <li><div class="cupboard"><img src="images/cupboard.png" alt=""></div><h5>Cupboards</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></li>
+                <li><div class="Tables"><img src="images/table.png" alt=""></div><h5>Tables</h5><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></li>
             </ul>
             <div class="vst-btn-ctnr">
-                <button type="button">Our Warehouse Visit Appointment</button>
+                <button type="button" class="wrhs" id="wrhs">Our Warehouse Visit Appointment</button>
             </div>
+            <div class="see_whole"><p>SEE THE WHOLE PROGRAM</p></div>
        </section>
-       <footer>
-           <section class="ftr">
-
-           </section>
-       </footer>
+       <section class="tstmons" id="tstmons">
+            <h2>Customers</h2>
+            <div class="ctsprtr"></div>
+            <ul>
+                <li class="mn"><img src="" alt="">
+                    <ul>
+                        <li><h4></h4></li>
+                        <li><h6></h6></li>
+                        <li><p></p></li>
+                    </ul>
+                </li>
+                <li class="mn"><img src="" alt="">
+                    <ul>
+                        <li><h4></h4></li>
+                        <li><h6></h6></li>
+                        <li><p></p></li>
+                    </ul>
+                </li>
+                <li class="mn"><img src="" alt="">
+                    <ul>
+                        <li><h4></h4></li>
+                        <li><h6></h6></li>
+                        <li><p></p></li>
+                    </ul>
+                </li>               
+                <li class="mn"><img src="" alt="">
+                    <ul>
+                        <li><h4></h4></li>
+                        <li><h6></h6></li>
+                        <li><p></p></li>
+                    </ul>
+                </li>               
+                <li class="mn"><img src="" alt="">
+                    <ul>
+                        <li><h4></h4></li>
+                        <li><h6></h6></li>
+                        <li><p></p></li>
+                    </ul>
+                </li>                
+                <li class="mn"><img src="" alt="">
+                    <ul>
+                        <li><h4></h4></li>
+                        <li><h6></h6></li>
+                        <li><p></p></li>
+                    </ul>
+                </li>            
+            </ul>
+       </section>
    </main>
+   <footer>
+        <section class="ftr" id="brands">
+            <h2>Brands</h2>
+            <div class="ctsprtr"></div>
+            <ul>
+                <li><img src="images/14-mozilla-logo.png" alt="mozzila"></li>
+                <li><img src="images/15-google-logo.png" alt="google"></li>
+                <li><img src="images/16-naver-logo.png" alt="naver"></li>
+                <li><img src="images/17-daumkakao-logo (3).jfif" alt="daumkakao"></li>
+                <li><img src="images/18-Airbnb-logo.png" alt=""></li>
+            </ul>
+        </section>
+        <section class="last">
+            <a class="logo_link" href="#"><img src="images/Screenshot from 2022-02-16 15-13-24.png" alt="Homifyers logo link"></a>
+            <div class="txt">2022 All Righs Reserved</div>
+        </section>
+    </footer>
+<script src="js/index.js"></script>
 </body>
 </html>

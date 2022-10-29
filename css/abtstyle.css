@@ -1,0 +1,297 @@
+/* stylelint-disable no-descending-specificity */
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/mob-body-bg.png');
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url('/images/desktop-body-bg.png');
+  }
+}
+
+.menu-btn {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ef1f08;
+}
+
+.upper_navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  background-color: #272a31;
+}
+
+.upper_navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-right: 50px;
+  padding: 0;
+  justify-self: flex-start;
+  column-gap: 30px;
+}
+
+.upper_navbar ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.upper_navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.desktop-navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .desktop-navbar {
+    display: none;
+  }
+}
+
+.desktop-navbar ul {
+  display: flex;
+  list-style: none;
+  column-gap: 10px;
+  margin-right: 10px;
+}
+
+.desktop-navbar ul li:last-child a {
+  background-color: #ef1f08;
+  border-radius: 8px;
+  color: #fff;
+  padding: 12px;
+}
+
+.desktop-navbar ul li a {
+  color: #6f7074;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.desktop-navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+#contact {
+  margin: 26px;
+  padding: 16px;
+  font-size: 12px;
+}
+
+.hmbrgrlst {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+  #hamburger-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .upper_navbar {
+    display: none;
+  }
+}
+
+.hmbrgrlst li:last-child {
+  border: 2px solid beige;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.hmbrgrlst li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h3,
+h1 {
+  color: #ef1f08;
+  margin: 0;
+}
+
+.hero h3 {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.hero h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.hero p.msg {
+  margin: 16px;
+  padding: 16px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+p#contact {
+  margin: 0;
+  text-align: center;
+}
+
+p#contact a {
+  color: #000;
+  font-weight: 900;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.middle h2 {
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.logo_txt {
+  margin: 0 40px 40px 40px;
+  color: #808080;
+  font-size: 18px;
+  text-align: center;
+}
+
+.logo_link {
+  align-self: center;
+}
+
+.logo_link img {
+  width: 100px;
+  height: 100px;
+}
+
+.sprtr {
+  border-bottom: 1px solid #ef1f08;
+  width: 50px;
+  height: 0;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+.old_pics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .old_pics {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+  }
+}
+
+.old_pics img {
+  box-sizing: border-box;
+  width: 482px;
+  max-width: 90%;
+  margin-bottom: 12px;
+}
+
+.ftr {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.ftr img {
+  width: 105px;
+  height: 28px;
+}
+
+.ftr h2 {
+  color: white;
+  text-align: center;
+}
+
+.ftr ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 10px;
+  list-style: none;
+  max-width: 768px;
+  padding: 0;
+  align-self: center;
+}
+
+.last {
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  font-weight: 800;
+  font-size: 16px;
+  font-style: normal;
+  box-sizing: border-box;
+}
