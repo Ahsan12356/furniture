@@ -259,7 +259,7 @@ p#contact a {
 .ftr {
   display: flex;
   flex-direction: column;
-  background-color: #272a31;
+  background-color: #000;
 }
 
 .ftr img {
